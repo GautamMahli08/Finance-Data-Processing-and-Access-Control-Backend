@@ -17,6 +17,10 @@ A production-ready role-based access control backend for financial records manag
 | Testing | pytest + httpx |
 | Version used |Python 3.10.0 |
 
+
+Tools used for Maual API testing
+| POSTMAN |
+
 ---
 
 ## Project Structure
