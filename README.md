@@ -63,7 +63,7 @@ finance-backend/
 ### 1. Install dependencies
 ```bash
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+venv\Scripts\activate
 py -3.11 pip install -r requirements.txt
 ```
 
