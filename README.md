@@ -63,7 +63,7 @@ finance-backend/
 ```bash
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+py -3.11 pip install -r requirements.txt
 ```
 
 ### 2. Configure environment
