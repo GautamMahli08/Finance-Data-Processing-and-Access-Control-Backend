@@ -18,8 +18,8 @@ A production-ready role-based access control backend for financial records manag
 | Version used |Python 3.10.0 |
 
 
-## Tools used for Maual API testing
-| Version used |Python 3.10.0 |
+## Tools used for Manual API testing
+POSTMAN
 
 
 ---
