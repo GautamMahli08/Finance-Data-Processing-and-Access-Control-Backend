@@ -58,29 +58,21 @@ finance-backend/
 
 ## Setup & Run
 
-### 1. Start MongoDB
-```bash
-# Docker (recommended)
-docker run -d -p 27017:27017 --name mongo mongo:7
 
-# OR local MongoDB
-mongod --dbpath /data/db
-```
-
-### 2. Install dependencies
+### 1. Install dependencies
 ```bash
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3. Configure environment
+### 2. Configure environment
 ```bash
 cp .env.example .env
 # Edit .env — set ADMIN_EMAIL, ADMIN_PASSWORD, SECRET_KEY
 ```
 
-### 4. Run server
+### 3. Run server
 ```bash
 uvicorn app.main:app --reload
 ```
