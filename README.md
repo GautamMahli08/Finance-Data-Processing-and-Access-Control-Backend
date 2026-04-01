@@ -220,11 +220,6 @@ pytest tests/ -v
 
 ---
 
-## Generate a Strong SECRET_KEY
-
-```bash
-python -c "import secrets; print(secrets.token_hex(32))"
-```
 
 ---
 
