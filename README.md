@@ -19,7 +19,7 @@ A production-ready role-based access control backend for financial records manag
 
 
 ## Tools used for Manual API testing
-POSTMAN
+POSTMAN_url : http://localhost:8000/api/v1/
 
 
 ---
