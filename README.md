@@ -15,7 +15,7 @@ A production-ready role-based access control backend for financial records manag
 | Validation | Pydantic v2 |
 | Rate Limiting | slowapi |
 | Testing | pytest + httpx |
-| Version |py -3.11 |
+| Version used |Python 3.10.0 |
 
 ---
 
